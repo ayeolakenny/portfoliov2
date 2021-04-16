@@ -25,7 +25,7 @@ export const projects = [
       {
         src: "/images/ts-logo.svg",
         alt: "typescript",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/graphql-logo.svg",
