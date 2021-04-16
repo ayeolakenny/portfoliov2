@@ -220,7 +220,7 @@ export const projects = [
       src: "/images/portfoliov2.png",
       alt: "project7",
     },
-    demoLink: "https://clever-villani-2fea77.netlify.app/",
+    demoLink: "https://portfolio-nine-lemon-19.vercel.app/",
     stackImages: [
       {
         src: "/images/nextjs-logo.svg",

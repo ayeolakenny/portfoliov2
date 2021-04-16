@@ -70,6 +70,10 @@ export const workedWithTechs = [
     src: "/images/netlify-logo.svg",
   },
   {
+    href: "https://www.vercel.com/",
+    src: "/vercel.svg",
+  },
+  {
     href: "https://www.firebase.google.com/",
     src: "/images/firebase-logo.svg",
   },
