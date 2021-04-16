@@ -9,7 +9,10 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   const body = projects.map((project) => (
     <div key={project.id}>
       <div className="rounded-lg overflow-hidden">
-        <div className="relative overflow-hidden">
+        {/* USE FOR LOCALHOST */}
+        <div className="relative overflow-hidden pb-60">
+          {/* USE FOR PROD */}
+          {/* <div className="relative overflow-hidden"> */}
           <img
             className={project.projectImage.className}
             src={project.projectImage.src}
@@ -30,6 +33,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
             <div className="mt-10 flex justify-between items-center">
               {project.stackImages.map((image: any) => (
                 <img
+                  style={{ height: 220 }}
                   src={image.src}
                   alt={image.alt}
                   className={image.className}
