@@ -9,7 +9,7 @@ export const Projects: React.FC<ProjectsProps> = ({ projects }) => {
   const body = projects.map((project) => (
     <div key={project.id}>
       <div className="rounded-lg overflow-hidden">
-        <div className="relative overflow-hidden pb-60">
+        <div className="relative overflow-hidden">
           <img
             className={project.projectImage.className}
             src={project.projectImage.src}
