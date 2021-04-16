@@ -15,7 +15,7 @@ export const projects = [
       {
         src: "/images/nodejs-logo.svg",
         alt: "nodejs",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/nextjs-logo.svg",
@@ -40,22 +40,22 @@ export const projects = [
       {
         src: "/images/mongodb-logo.svg",
         alt: "mongodb",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/redis-logo.svg",
         alt: "redis",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/typegraphql-logo.png",
         alt: "typegraphql",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-10",
+        className: "w-6",
       },
     ],
   },
@@ -74,7 +74,7 @@ export const projects = [
       {
         src: "/images/nodejs-logo.svg",
         alt: "nodejs",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/react-logo.svg",
@@ -84,7 +84,7 @@ export const projects = [
       {
         src: "/images/ts-logo.svg",
         alt: "typescript",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/graphql-logo.svg",
@@ -99,12 +99,12 @@ export const projects = [
       {
         src: "/images/mongodb-logo.svg",
         alt: "mongodb",
-        className: "w-10",
+        className: "w-6",
       },
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-10",
+        className: "w-6",
       },
     ],
   },
