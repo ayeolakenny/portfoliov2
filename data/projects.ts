@@ -66,7 +66,7 @@ export const projects = [
     description: "Basic todo taking app with full CRUD functionalities",
     projectImage: {
       className: "absolute h-full w-full object-cover object-center",
-      src: "/images/text.png",
+      src: "/images/graphql-todo.png",
       alt: "project2",
     },
     demoLink: "https://master.d3im6zr5cig03q.amplifyapp.com/",
