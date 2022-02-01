@@ -89,4 +89,12 @@ export const workedWithTechs = [
     href: "https://www.heroku.com/",
     src: "/images/heroku-logo.png",
   },
+  {
+    href: "https://www.nestjs.com/",
+    src: "/images/nestjs-logo.svg",
+  },
+  {
+    href: "https://www.postgresql.org/",
+    src: "/images/postgres-logo.png",
+  },
 ];
