@@ -55,7 +55,7 @@ export const projects = [
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-8",
+        className: "w-6",
       },
     ],
   },
@@ -89,7 +89,7 @@ export const projects = [
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-8",
+        className: "w-6",
       },
       {
         src: "/images/netlify-logo.svg",
@@ -105,7 +105,7 @@ export const projects = [
       "An online web gaming platform, (built the back infrastructure)",
     projectImage: {
       className: "absolute h-full w-full object-cover object-center",
-      src: "/images/betasratch.png",
+      src: "/images/betascratch.png",
       alt: "project3",
     },
     demoLink: "https://betascratch.com/home",
@@ -128,12 +128,12 @@ export const projects = [
       {
         src: "/images/prisma.svg",
         alt: "prisma",
-        className: "w-12",
+        className: "w-6",
       },
       {
         src: "/images/postgres-logo.png",
         alt: "postgres",
-        className: "w-12",
+        className: "w-6",
       },
     ],
   },
@@ -167,12 +167,12 @@ export const projects = [
       {
         src: "/images/typeorm-logo.png",
         alt: "typeorm",
-        className: "w-10",
+        className: "w-16",
       },
       {
         src: "/images/postgres-logo.png",
         alt: "postgres",
-        className: "w-12",
+        className: "w-6",
       },
     ],
   },
