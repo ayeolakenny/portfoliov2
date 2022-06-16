@@ -82,6 +82,10 @@ export const workedWithTechs = [
     src: "/images/typeorm-logo.png",
   },
   {
+    href: "https://www.prisma.io/",
+    src: "/images/prisma.svg",
+  },
+  {
     href: "https://www.mysql.com",
     src: "/images/mysql-logo.svg",
   },

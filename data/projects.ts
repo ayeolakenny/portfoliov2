@@ -55,96 +55,41 @@ export const projects = [
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-6",
+        className: "w-8",
       },
     ],
   },
   {
     id: 2,
-    name: "Todo",
-    github: "https://github.com/ayeolakenny/todo-graphql",
-    description: "Basic todo taking app with full CRUD functionalities",
+    name: "Studybud",
+    description:
+      "A social media website aimed to connect students together and help aid and better education",
     projectImage: {
       className: "absolute h-full w-full object-cover object-center",
-      src: "/images/graphql-todo.png",
+      src: "/images/sb.png",
       alt: "project2",
     },
-    demoLink: "https://master.d3im6zr5cig03q.amplifyapp.com/",
+    demoLink: "https://studybud.netlify.app/",
     stackImages: [
-      {
-        src: "/images/nodejs-logo.svg",
-        alt: "nodejs",
-        className: "w-6",
-      },
       {
         src: "/images/react-logo.svg",
         alt: "reactjs",
         className: "w-6",
       },
       {
-        src: "/images/ts-logo.svg",
-        alt: "typescript",
+        src: "/images/mui-logo.svg",
+        alt: "materialui",
         className: "w-6",
       },
       {
-        src: "/images/graphql-logo.svg",
-        alt: "graphql",
-        className: "w-6",
-      },
-      {
-        src: "/images/apollo-logo.svg",
-        alt: "apollo",
-        className: "w-6",
-      },
-      {
-        src: "/images/mongodb-logo.svg",
-        alt: "mongodb",
+        src: "/images/firebase-logo.svg",
+        alt: "firebase",
         className: "w-6",
       },
       {
         src: "/images/express-logo.svg",
         alt: "express",
-        className: "w-6",
-      },
-    ],
-  },
-  {
-    id: 3,
-    name: "Movie Search App",
-    github: "https://github.com/ayeolakenny/React-movie-webapp",
-    description:
-      "Webapp to check and search for random movies online, utilizing the omdb api",
-    projectImage: {
-      className: "absolute h-full w-full object-cover object-center",
-      src: "/images/movie-search.png",
-      alt: "project3",
-    },
-    demoLink: "https://movie-checker.netlify.app/",
-    stackImages: [
-      {
-        src: "/images/react-logo.svg",
-        alt: "reactjs",
-        className: "w-6",
-      },
-    ],
-  },
-  {
-    id: 4,
-    name: "Github Cards App",
-    github: "https://github.com/ayeolakenny/Github-Cards-App",
-    description:
-      "Webapp that utilizes the github api and generates profiles of github users from the username provided",
-    projectImage: {
-      className: "absolute h-full w-full object-cover object-center",
-      src: "/images/github-cards-app.png",
-      alt: "project4",
-    },
-    demoLink: "https://github-cards-app.netlify.app/",
-    stackImages: [
-      {
-        src: "/images/react-logo.svg",
-        alt: "reactjs",
-        className: "w-6",
+        className: "w-8",
       },
       {
         src: "/images/netlify-logo.svg",
@@ -154,7 +99,125 @@ export const projects = [
     ],
   },
   {
+    id: 3,
+    name: "BetaScratch",
+    description:
+      "An online web gaming platform, (built the back infrastructure)",
+    projectImage: {
+      className: "absolute h-full w-full object-cover object-center",
+      src: "/images/betasratch.png",
+      alt: "project3",
+    },
+    demoLink: "https://betascratch.com/home",
+    stackImages: [
+      {
+        src: "/images/nestjs-logo.svg",
+        alt: "nestjs",
+        className: "w-6",
+      },
+      {
+        src: "/images/graphql-logo.svg",
+        alt: "graphql",
+        className: "w-6",
+      },
+      {
+        src: "/images/ts-logo.svg",
+        alt: "typescript",
+        className: "w-6",
+      },
+      {
+        src: "/images/prisma.svg",
+        alt: "prisma",
+        className: "w-12",
+      },
+      {
+        src: "/images/postgres-logo.png",
+        alt: "postgres",
+        className: "w-12",
+      },
+    ],
+  },
+  {
+    id: 4,
+    name: "Ribbon Protocol",
+    description:
+      "Webapp for that hepls to bring the healthcare system online in a decentralized way, (built the back infrastructure)",
+    projectImage: {
+      className: "absolute h-full w-full object-cover object-center",
+      src: "/images/ribbon-protocol.png",
+      alt: "project4",
+    },
+    demoLink: "http://www.ribbonprotocol.org/",
+    stackImages: [
+      {
+        src: "/images/nestjs-logo.svg",
+        alt: "nestjs",
+        className: "w-6",
+      },
+      {
+        src: "/images/graphql-logo.svg",
+        alt: "graphql",
+        className: "w-6",
+      },
+      {
+        src: "/images/ts-logo.svg",
+        alt: "typescript",
+        className: "w-6",
+      },
+      {
+        src: "/images/typeorm-logo.png",
+        alt: "typeorm",
+        className: "w-10",
+      },
+      {
+        src: "/images/postgres-logo.png",
+        alt: "postgres",
+        className: "w-12",
+      },
+    ],
+  },
+  {
     id: 5,
+    name: "Cashout",
+    github: "https://github.com/ayeolakenny/Simba-Project-Client",
+    description:
+      "Money transfer webapp that effectively calculates exchange rate on transfer with different currencies",
+    projectImage: {
+      className: "absolute h-full w-full object-cover object-center",
+      src: "/images/cashout.png",
+      alt: "project6",
+    },
+    demoLink: "https://cashout.vercel.app/overview",
+    stackImages: [
+      {
+        src: "/images/nextjs-logo.svg",
+        alt: "nextjs",
+        className: "w-6",
+      },
+      {
+        src: "/images/tailwind-logo.svg",
+        alt: "tailwind",
+        className: "w-6",
+      },
+      {
+        src: "/images/prisma.svg",
+        alt: "prisma",
+        className: "w-6",
+      },
+      {
+        src: "/images/ts-logo.svg",
+        alt: "typescript",
+        className: "w-6",
+      },
+      {
+        src: "/images/postgres-logo.png",
+        alt: "postgres",
+        className: "w-6",
+      },
+    ],
+  },
+  {
+    id: 6,
     name: "Recipe Search WebApp",
     github: "https://github.com/ayeolakenny/Recipie-Search-webApp",
     description:
@@ -171,32 +234,6 @@ export const projects = [
         alt: "bootstrap",
         className: "w-6",
       },
-      {
-        src: "/images/js-logo.svg",
-        alt: "javascript",
-        className: "w-6",
-      },
-      {
-        src: "/images/netlify-logo.svg",
-        alt: "netlify",
-        className: "w-6",
-      },
-      ,
-    ],
-  },
-  {
-    id: 6,
-    name: "Color Game",
-    github: "https://github.com/ayeolakenny/JavaScript-Color-Game",
-    description:
-      "Basic and fun javascript color guessing game, using the rgb color spectrum with options to choose to play an easy or hard mode.",
-    projectImage: {
-      className: "absolute h-full w-full object-cover object-center",
-      src: "/images/js-color-game.png",
-      alt: "project6",
-    },
-    demoLink: "https://kind-lamarr-bd5b2b.netlify.app/",
-    stackImages: [
       {
         src: "/images/js-logo.svg",
         alt: "javascript",

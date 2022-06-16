@@ -26,10 +26,10 @@ const Experience: React.FC<{}> = ({}) => {
   ));
 
   return (
-    <section className="text-center py-10" id="experience">
-      <h1 className="text-3xl pt-7 pb-5 text-black">EXPERIENCE👨‍💻</h1>
+    <section className="py-10 text-center" id="experience">
+      <h1 className="pb-5 text-3xl text-black pt-7">EXPERIENCE👨‍💻</h1>
       <div className="">
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-2">
+        <div className="grid grid-cols-1 gap-2 md:grid-cols-3">
           <div className="col-span-2">
             <p className="text-xl">SOME TECHNOLOGIES I'VE WORKED WITH:</p>
             <br />
@@ -37,9 +37,9 @@ const Experience: React.FC<{}> = ({}) => {
               {techImage}
             </div>
           </div>
-          <div className="">
+          <div>
             <p className="text-xl">WHERE I'VE WORKED:</p>
-            {workImage}
+            <div className="grid grid-cols-2 gap-2">{workImage}</div>
           </div>
         </div>
       </div>
