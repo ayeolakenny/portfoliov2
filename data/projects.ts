@@ -167,7 +167,7 @@ export const projects = [
       {
         src: "/images/typeorm-logo.png",
         alt: "typeorm",
-        className: "w-16",
+        className: "w-6",
       },
       {
         src: "/images/postgres-logo.png",
