@@ -141,7 +141,7 @@ export const projects = [
     id: 4,
     name: "Ribbon Protocol",
     description:
-      "Webapp for that hepls to bring the healthcare system online in a decentralized way, (built the back infrastructure)",
+      "Webapp for that helps to bring the healthcare system online in a decentralized way, (built the back infrastructure)",
     projectImage: {
       className: "absolute h-full w-full object-cover object-center",
       src: "/images/ribbon-protocol.png",
