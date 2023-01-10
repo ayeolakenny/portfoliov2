@@ -1,6 +1,45 @@
 export const projects = [
   {
     id: 1,
+    name: "NFT minting Dapp",
+    github: "https://github.com/ayeolakenny/NFT-MINTING-DAPP",
+    description: "Webiste that allows you connect to your wallet and mint nfts",
+    projectImage: {
+      className: "absolute h-full w-full object-cover object-center",
+      src: "/images/nft-minting-dapp.png",
+      alt: "project1",
+    },
+    demoLink: "https://ayeolakennynft.vercel.app/",
+    stackImages: [
+      {
+        src: "/images/solidity.svg",
+        alt: "solidity",
+        className: "w-8",
+      },
+      {
+        src: "/images/hardhat.svg",
+        alt: "hardhat",
+        className: "w-12",
+      },
+      {
+        src: "/images/ts-logo.svg",
+        alt: "typescript",
+        className: "w-6",
+      },
+      {
+        src: "/images/ethers.png",
+        alt: "ethersjs",
+        className: "w-11",
+      },
+      {
+        src: "/images/nextjs-logo.svg",
+        alt: "nextjs",
+        className: "w-6",
+      },
+    ],
+  },
+  {
+    id: 1,
     name: "INFO BLOG",
     github: "https://github.com/ayeolakenny/Info-Blog",
     description:
