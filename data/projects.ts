@@ -14,12 +14,12 @@ export const projects = [
       {
         src: "/images/solidity.svg",
         alt: "solidity",
-        className: "w-8",
+        className: "w-6",
       },
       {
         src: "/images/hardhat.svg",
         alt: "hardhat",
-        className: "w-8",
+        className: "w-6",
       },
       {
         src: "/images/ts-logo.svg",
@@ -29,7 +29,7 @@ export const projects = [
       {
         src: "/images/ethers.png",
         alt: "ethersjs",
-        className: "w-8",
+        className: "w-6",
       },
       {
         src: "/images/nextjs-logo.svg",
