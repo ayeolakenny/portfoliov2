@@ -19,7 +19,7 @@ export const projects = [
       {
         src: "/images/hardhat.svg",
         alt: "hardhat",
-        className: "w-12",
+        className: "w-8",
       },
       {
         src: "/images/ts-logo.svg",
@@ -29,7 +29,7 @@ export const projects = [
       {
         src: "/images/ethers.png",
         alt: "ethersjs",
-        className: "w-11",
+        className: "w-8",
       },
       {
         src: "/images/nextjs-logo.svg",
