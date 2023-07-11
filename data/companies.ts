@@ -25,9 +25,9 @@ export const workedWithCompanies = [
   },
    {
     href: "https://www.zoracom.com/",
-    src: "/zoracom.com/img/zoracom_logo.png",
-    width: 170,
-    height: 150,
-  },
-   
+    src: "/images/zoracom_logo.png",
+    width: 140,
+    height: 80,
+  }
+ 
 ];
