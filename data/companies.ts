@@ -23,4 +23,11 @@ export const workedWithCompanies = [
     width: 170,
     height: 150,
   },
+   {
+    href: "https://www.zoracom.com/",
+    src: "/images/zoracom_logo.png",
+    width: 130,
+    height: 40,
+  }
+ 
 ];
