@@ -9,7 +9,7 @@
     "build:css": "tailwind build styles/globals.css -o dist/style.css"
   },
   "engines": {
-    "node": "18"
+    "node": "24"
   },
   "dependencies": {
     "@material-ui/core": "^4.11.3",
