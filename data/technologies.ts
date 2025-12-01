@@ -101,4 +101,8 @@ export const workedWithTechs = [
     href: "https://www.postgresql.org/",
     src: "/images/postgres-logo.png",
   },
+  {
+    href: "https://www.docker.com/",
+    src: "/images/docker.webp",
+  },
 ];
